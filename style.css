@@ -4,7 +4,7 @@ body {
 
 .banner {
     height: 605px;
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6), url('assets/images/banner.png'));
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 60px;
