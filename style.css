@@ -64,3 +64,45 @@ body {
     border-image-slice: 10;
     border-radius: 30px;
 }
+
+#course-content {
+    width: 800px;
+    text-align: center;
+}
+
+#course-content .modules-list {
+    margin: 24px 0;
+}
+
+#course-content .modules-list .module {
+    color: white;
+    width: 535px;
+    height: hug(51px);
+    margin: 0 auto 24px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 57px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #33A8DB;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    letter-spacing: 4px;
+}
+
+p {
+    color: white;
+}
+
+section {
+    margin: 100px auto;
+}
+
+#course-content .modules-list .module span {
+    color: #33A8DB;
+}
