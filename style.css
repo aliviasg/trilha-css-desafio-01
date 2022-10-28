@@ -1,10 +1,20 @@
+@font-face {
+    font-family: Raleway;
+    src: url('./assets/fonts/Raleway-Regular.ttf');
+}
+
+* {
+    font-family: Raleway;
+}
+
 body {
     background-color: black;
+    font-family: Raleway;
 }
 
 .banner {
     height: 605px;
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('assets/images/banner.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 60px;
@@ -38,8 +48,11 @@ body {
 }
 
 .banner h1 {
+    width: hug(434px);
+    height: hug(47px);
     font-size: 40px;
     font-weight: 900;
+    line-height: 46.96px;
     text-transform: uppercase;
     color: transparent;
     background: -webkit-linear-gradient(#33A8DB, #1472B7);
@@ -48,8 +61,11 @@ body {
 }
 
 .banner p {
-    font-size: 1.25rem;
     margin: 16px 0 24px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.48px;
 }
 
 .banner-content button {
